@@ -4,12 +4,12 @@ Research to bypass all adblockers like AdBlock Plus, uBlock, uMatrix, AdGuard an
 RoughTed 
 ========
 
-Affected pages:
-Adf.ly
-ExtraTorrent
-Openloud
-Ouo.io
-.... (thousend others)
+* Affected pages:
+* Adf.ly
+* ExtraTorrent
+* Openloud
+* Ouo.io
+* .... (thousend others)
 
 
 How it works?
@@ -20,6 +20,15 @@ The malicious code present in these rogue ads will load various scripts in the b
 The detection include checks for browser type, operating system, language settings, and geolocation information and a advance detection if th user argent info was faked.
 
 These scripts range from using the now standard HTML5 canvas-based fingerprinting technique to a newer trick of checking for a list of installed fonts — which are different based on OS.
+
+
+Protection?
+========
+
+
+Router (doesn't work 100%)
+
+For a router to do this, it would have to be more than a router. To truly filter ads, you have to sit at the application level, layer 7. Routers sit at layer 3 and 4. To a router, ads and legit website traffic can come from the same IP address, making it impossible to differentiate between the two.
 
 
 
