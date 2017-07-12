@@ -1,9 +1,9 @@
-# Research to bypass all adblockers like AdBlock Plus, uBlock, uMatrix, AdGuard and others.
+Research to bypass all adblockers like AdBlock Plus, uBlock, uMatrix, AdGuard and others.
 
 Project Goal
 ========
 
-List all mechanism to show how to defeat ad-blockers.
+List all mechanism to show how to defeat adblockers.
 
 
 RoughTed 
@@ -14,7 +14,7 @@ Affected pages:
 * ExtraTorrent
 * Openloud
 * Ouo.io
-* .... (thousend others)
+* .... (thousand others)
 
 
 How it works?
@@ -36,7 +36,7 @@ Router (doesn't work 100%)
 For a router to do this, it would have to be more than a router. To truly filter ads, you have to sit at the application level, layer 7. Routers sit at layer 3 and 4. To a router, ads and legit website traffic can come from the same IP address, making it impossible to differentiate between the two.
 
 
-Regex:
+Regex detection (works 100%):
 
 
 &tid=6[0-9]{5}&(status|red)=[0-9]{1,2}&(info|ref|subid|abt|v)
@@ -44,6 +44,8 @@ Regex:
 
 
 Top RoughTed domains
+========
+
 * histock.info
 * charmstroy.info
 * greatwork.info
@@ -57,4 +59,4 @@ Top RoughTed domains
 
 
 Research:
-https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
+* https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
