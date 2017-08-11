@@ -163,4 +163,5 @@ Top RoughTed domains
 
 Research:
 * https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
-* https://github.com/gorhill/uBO-Extra/wiki/Sites-on-which-uBO-Extra-is-useful#instart-logic
+* https://github.com/gorhill/uBO-Extra/wiki/Sites-on-which-uBO-Extra-is-useful#instart-logic *[ref](https://github.com/sindresorhus/devtools-detect)
+* [EasyList: Ad-serving domain removed due to DMCA takedown request](https://news.ycombinator.com/item?id=14978228)
