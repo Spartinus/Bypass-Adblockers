@@ -1,0 +1,2 @@
+* uBlock can be bypassed by returning blank values to the DOM inspector
+* Same ^^ goes to the cosmetic filter, returning blank values back 
