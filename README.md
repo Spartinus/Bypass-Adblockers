@@ -28,7 +28,31 @@ The malicious code present in these rogue ads will load various scripts in the b
 
 The detection include checks for browser type, operating system, language settings, and geolocation information and a advance detection if th user argent info was faked.
 
-These scripts range from using the now standard HTML5 canvas-based fingerprinting technique to a newer trick of checking for a list of installed fonts — which are different based on OS.
+These scripts range from using the now standard HTML5 canvas-based fingerprinting technique to a newer trick of checking for a list of installed fonts — which are different based on your installed OS.
+
+
+Detection
+========
+
+Based on the research papers. 
+
+* Alexa top-10K list and are able to detect anti-adblockers on 30.5% websites. From manually checking one third (1000) of these detected websites.
+
+* The ﬁlter lists are maintained by a group of volunteers through informal crowdsourced feedback from users. As expected, adding new rules or removing redundant rules in the ﬁlter lists is a laborious manual process and is prone to errors that often result in site breakage.
+
+* In sum, adblockers currently are simply not effective against anti-adblocking. For example, prior work showed that adblockers remove less than 20% of the adblock detection warning messages shown by anti-adblockers.
+
+* Some solutions (e.g., BlockAdblock) utilize eval to wrap their anti-adblocking logic represented as a string
+most websites choose to outsource anti-adblocking to dedicated third-party anti-adblocking service providers such as PageFair.
+
+*  Analytics and ads scripts by Google are the most popular source of anti-adblocking scripts. Several other online advertising services such as Taboola and Outbrain using anti-adblockers.
+
+* Some scripts use the “pixel” technique, which loads a small, unobtrusive piece of image (i.e., pixel) and then drops a browser cookie for future inter-domain ad re-targeting.
+
+* Adblockers are currently struggling to keep up with anti-adblockers due to the challenges in manually analyzing the anti-adblocking Javscript. There is simply no guarantee. 
+
+* I anticipate escalation of the technological battle between adblockers and anti-adblockers — at least in the short term. From the perspective of security and privacy conscious users, it is crucial that adblockers are able to keep up with antiadblockers. Moreover, the increasing popularity of adblocking has already led to various reform efforts within the online advertising industry to improve ads (e.g., Coalition for Better Ads, Acceptable Ads Committee) and even alternate monetization models (e.g., Google Contributor, Brave Payments). However, to keep up the pressure on publishers and advertisers in the long term, I believe it is crucial that adblockers keep pace with anti-adblockers in the rapidly escalating technological arms race.
+
 
 
 Protection?
@@ -166,6 +190,8 @@ Top RoughTed domains
 
 
 Research:
+* https://palant.de/2017/04/19/is-undetectable-ad-blocking-possible
+* https://sites.google.com/view/antiadb-proj/
 * https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
 * https://github.com/gorhill/uBO-Extra/wiki/Sites-on-which-uBO-Extra-is-useful#instart-logic *[ref](https://github.com/sindresorhus/devtools-detect)
 * [EasyList: Ad-serving domain removed due to DMCA takedown request](https://news.ycombinator.com/item?id=14978228)
