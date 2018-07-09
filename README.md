@@ -190,6 +190,7 @@ Top RoughTed domains
 
 
 Research:
+* https://www.theregister.co.uk/2017/08/11/ad_blocker_bypass_code/
 * https://palant.de/2017/04/19/is-undetectable-ad-blocking-possible
 * https://sites.google.com/view/antiadb-proj/
 * https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
