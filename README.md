@@ -2,7 +2,7 @@
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
-[![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
+[![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/CHEF-KOCH)
 
 Project Goal
 ========
@@ -196,3 +196,4 @@ Research:
 * https://blog.malwarebytes.com/cybercrime/2017/05/roughted-the-anti-ad-blocker-malvertiser/
 * https://github.com/gorhill/uBO-Extra/wiki/Sites-on-which-uBO-Extra-is-useful#instart-logic *[ref](https://github.com/sindresorhus/devtools-detect)
 * [EasyList: Ad-serving domain removed due to DMCA takedown request](https://news.ycombinator.com/item?id=14978228)
+* [1st-party tracker blocking](https://github.com/uBlockOrigin/uBlock-issues/issues/780)
